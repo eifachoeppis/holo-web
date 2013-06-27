@@ -1,15 +1,11 @@
-.actionBar {
+.actionBar, .holo-actionBar {
 	background-color:#010101;
 	
+	border-top-color: #0F0F0F;
 	border-bottom-color:#33B5E5;
 }
-footer.actionBar {
-	border-top-color:#808080;
-}
-
-.actionBar button:focus {
-	background-color:rgba(51,181,229,0.3);
+footer.actionBar, footer.holo-actionBar {
+	background-color: #262B31;
 	
-	outline-color:#32A5CF;
-	outline-color:rgba(51,181,229,0.9);
+	border-top-color: #505359;
 }
